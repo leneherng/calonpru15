@@ -20,11 +20,11 @@ export default function Page() {
             <div className="flex justify-center text-xl font-bold text-gray-900 py-2">
               GE15 Candidates
             </div>
-        <div className="grid grid-cols-[700px, 700px] py-2">
-          <div className="overflow-x-scroll col-start-1 px-4">
+        <div className="grid grid-cols-[w-2/3, w-1/3] py-2">
+          <div className="overflow-x-scroll col-start-1">
             <Map onClickHandler={onClickHandler} />
           </div>
-          <div className="col-start-1 lg:col-start-2">
+          <div className="col-start-1 lg:col-start-2  ">
             <Candidates area={candidates[code]} />
           </div>
         </div>

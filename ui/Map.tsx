@@ -119,47 +119,48 @@ export default function Map( { onClickHandler } : { onClickHandler : React.Mouse
         <g onClick={onClickHandler} id="16"><rect id="Padang_Serai" data-name="Padang Serai" className="cls-1" x="560" y="340" width="39" height="39"/><text className="cls-2" x="580" y="367">017</text></g>
         <g onClick={onClickHandler} id="17"><rect id="Kulim-Bandar_Baharu" data-name="Kulim-Bandar Baharu" className="cls-4" x="520" y="380" width="39" height="39"/><text className="cls-2" x="540" y="407">018</text></g>
 
-        <text id="P.Pinang" data-name="P. Pinang" className="cls-5" x="281.167" y="319.772">P. Pinang</text>
-        <g onClick={onClickHandler} id="18"><rect id="Kepala_Batas" data-name="Kepala Batas" className="cls-1" x="400" y="300" width="39" height="39"/><text className="cls-2" x="420" y="327">041</text></g>
-        <g onClick={onClickHandler} id="19"><rect id="Tasek_Gelugor" data-name="Tasek Gelugor" className="cls-8" x="400" y="340" width="39" height="39"/><text className="cls-2" x="420" y="367">042</text></g>
-        <g onClick={onClickHandler} id="20"><rect id="Bagan" data-name="Bagan" className="cls-1" x="440" y="340" width="39" height="39"/><text className="cls-2" x="460" y="367">043</text></g>
-        <g onClick={onClickHandler} id="21"><rect id="Permatang_Pauh" data-name="Permatang Pauh" className="cls-4" x="400" y="380" width="39" height="39"/><text className="cls-2" x="420" y="407">044</text></g>
-        <g onClick={onClickHandler} id="22"><rect id="Bukit_Mertajam" data-name="Bukit Mertajam" className="cls-4" x="440" y="380" width="39" height="39"/><text className="cls-2" x="460" y="407">045</text></g>
-        <g onClick={onClickHandler} id="23"><rect id="Batu_Kawan" data-name="Batu Kawan" className="cls-4" x="400" y="420" width="39" height="39"/><text className="cls-2" x="420" y="447">046</text></g>
-        <g onClick={onClickHandler} id="24"><rect id="Nibong_Tebal" data-name="Nibong Tebal" className="cls-4" x="440" y="420" width="39" height="39"/><text className="cls-2" x="460" y="447">047</text></g>
-        <g onClick={onClickHandler} id="25"><rect id="Bukit_Bendera" data-name="Bukit Bendera" className="cls-4" x="280" y="340" width="39" height="39"/><text className="cls-2" x="300" y="367">048</text></g>
-        <g onClick={onClickHandler} id="26"><rect id="Tanjong" data-name="Tanjong" className="cls-4" x="320" y="340" width="39" height="39"/><text className="cls-2" x="340" y="367">049</text></g>
-        <g onClick={onClickHandler} id="27"><rect id="Jelutong" data-name="Jelutong" className="cls-4" x="280" y="380" width="39" height="39"/><text className="cls-2" x="300" y="407">050</text></g>
-        <g onClick={onClickHandler} id="28"><rect id="Bukit_Gelugor" data-name="Bukit Gelugor" className="cls-4" x="320" y="380" width="39" height="39"/><text className="cls-2" x="340" y="407">051</text></g>
-        <g onClick={onClickHandler} id="29"><rect id="Bayan_Baru" data-name="Bayan Baru" className="cls-4" x="280" y="420" width="39" height="39"/><text className="cls-2" x="300" y="447">052</text></g>
-        <g onClick={onClickHandler} id="30"><rect id="Balik_Pulau" data-name="Balik Pulau" className="cls-4" x="320" y="420" width="39" height="39"/><text className="cls-2" x="340" y="447">053</text></g>
-        <g onClick={onClickHandler} id="31"><rect id="Tumpat" data-name="Tumpat" className="cls-6" x="760" y="300" width="39" height="39"/><text className="cls-2" x="780" y="327">019</text></g>
 
         <text id="Kelantan" data-name="Kelantan" className="cls-5" x="757.169" y="279.772">Kelantan</text>
-        <g onClick={onClickHandler} id="32"><rect id="Pengakalan_Chepa" data-name="Pengakalan Chepa" className="cls-6" x="800" y="300" width="39" height="39"/><text className="cls-2" x="820" y="327">020</text></g>
-        <g onClick={onClickHandler} id="33"><rect id="Kota_Bharu" data-name="Kota Bharu" className="cls-6" x="720" y="340" width="39" height="39"/><text className="cls-2" x="740" y="367">021</text></g>
-        <g onClick={onClickHandler} id="34"><rect id="Pasir_Mas" data-name="Pasir Mas" className="cls-6" x="760" y="340" width="39" height="39"/><text className="cls-2" x="780" y="367">022</text></g>
-        <g onClick={onClickHandler} id="35"><rect id="Rantau_Panjang" data-name="Rantau Panjang" className="cls-6" x="800" y="340" width="39" height="39"/><text className="cls-2" x="820" y="367">023</text></g>
-        <g onClick={onClickHandler} id="36"><rect id="Kubang_Kerian" data-name="Kubang Kerian" className="cls-6" x="720" y="380" width="39" height="39"/><text className="cls-2" x="740" y="407">024</text></g>
-        <g onClick={onClickHandler} id="37"><rect id="Bachok" data-name="Bachok" className="cls-6" x="760" y="380" width="39" height="39"/><text className="cls-2" x="780" y="407">025</text></g>
-        <g onClick={onClickHandler} id="38"><rect id="Ketereh" data-name="Ketereh" className="cls-1" x="720" y="420" width="39" height="39"/><text className="cls-2" x="740" y="447">026</text></g>
-        <g onClick={onClickHandler} id="39"><rect id="Tanah_Merah" data-name="Tanah Merah" className="cls-8" x="760" y="420" width="39" height="39"/><text className="cls-2" x="780" y="447">027</text></g>
-        <g onClick={onClickHandler} id="39"><rect id="Pasir_Puteh" data-name="Pasir Puteh" className="cls-6" x="720" y="460" width="39" height="39"/><text className="cls-2" x="740" y="487">028</text></g>
-        <g onClick={onClickHandler} id="41"><rect id="Machang" data-name="Machang" className="cls-1" x="760" y="460" width="39" height="39"/><text className="cls-2" x="780" y="487">029</text></g>
-        <g onClick={onClickHandler} id="42"><rect id="Jeli" data-name="Jeli" className="cls-8" x="680" y="500" width="39" height="39"/><text className="cls-2" x="700" y="527">030</text></g>
-        <g onClick={onClickHandler} id="43"><rect id="Kuala_Krai" data-name="Kuala Krai" className="cls-6" x="720" y="500" width="39" height="39"/><text className="cls-2" x="740" y="527">031</text></g>
-        <g onClick={onClickHandler} id="44"><rect id="Gua_Musang" data-name="Gua Musang" className="cls-1" x="760" y="500" width="39" height="39"/><text className="cls-2" x="780" y="527">032</text></g>
+        <g onClick={onClickHandler} id="18"><rect id="Tumpat" data-name="Tumpat" className="cls-6" x="760" y="300" width="39" height="39"/><text className="cls-2" x="780" y="327">019</text></g>
+        <g onClick={onClickHandler} id="19"><rect id="Pengakalan_Chepa" data-name="Pengakalan Chepa" className="cls-6" x="800" y="300" width="39" height="39"/><text className="cls-2" x="820" y="327">020</text></g>
+        <g onClick={onClickHandler} id="20"><rect id="Kota_Bharu" data-name="Kota Bharu" className="cls-6" x="720" y="340" width="39" height="39"/><text className="cls-2" x="740" y="367">021</text></g>
+        <g onClick={onClickHandler} id="21"><rect id="Pasir_Mas" data-name="Pasir Mas" className="cls-6" x="760" y="340" width="39" height="39"/><text className="cls-2" x="780" y="367">022</text></g>
+        <g onClick={onClickHandler} id="22"><rect id="Rantau_Panjang" data-name="Rantau Panjang" className="cls-6" x="800" y="340" width="39" height="39"/><text className="cls-2" x="820" y="367">023</text></g>
+        <g onClick={onClickHandler} id="23"><rect id="Kubang_Kerian" data-name="Kubang Kerian" className="cls-6" x="720" y="380" width="39" height="39"/><text className="cls-2" x="740" y="407">024</text></g>
+        <g onClick={onClickHandler} id="24"><rect id="Bachok" data-name="Bachok" className="cls-6" x="760" y="380" width="39" height="39"/><text className="cls-2" x="780" y="407">025</text></g>
+        <g onClick={onClickHandler} id="25"><rect id="Ketereh" data-name="Ketereh" className="cls-1" x="720" y="420" width="39" height="39"/><text className="cls-2" x="740" y="447">026</text></g>
+        <g onClick={onClickHandler} id="26"><rect id="Tanah_Merah" data-name="Tanah Merah" className="cls-8" x="760" y="420" width="39" height="39"/><text className="cls-2" x="780" y="447">027</text></g>
+        <g onClick={onClickHandler} id="27"><rect id="Pasir_Puteh" data-name="Pasir Puteh" className="cls-6" x="720" y="460" width="39" height="39"/><text className="cls-2" x="740" y="487">028</text></g>
+        <g onClick={onClickHandler} id="28"><rect id="Machang" data-name="Machang" className="cls-1" x="760" y="460" width="39" height="39"/><text className="cls-2" x="780" y="487">029</text></g>
+        <g onClick={onClickHandler} id="29"><rect id="Jeli" data-name="Jeli" className="cls-8" x="680" y="500" width="39" height="39"/><text className="cls-2" x="700" y="527">030</text></g>
+        <g onClick={onClickHandler} id="30"><rect id="Kuala_Krai" data-name="Kuala Krai" className="cls-6" x="720" y="500" width="39" height="39"/><text className="cls-2" x="740" y="527">031</text></g>
+        <g onClick={onClickHandler} id="31"><rect id="Gua_Musang" data-name="Gua Musang" className="cls-1" x="760" y="500" width="39" height="39"/><text className="cls-2" x="780" y="527">032</text></g>
 
         <text id="Tganu" data-name="T’ganu" className="cls-5" x="900.168" y="438.772">T’ganu</text>
-        <g onClick={onClickHandler} id="45"><rect id="Besut" data-name="Besut" className="cls-1" x="840" y="420" width="39" height="39"/><text className="cls-2" x="860" y="447">033</text></g>
-        <g onClick={onClickHandler} id="46"><rect id="Setiu" data-name="Setiu" className="cls-6" x="840" y="460" width="39" height="39"/><text className="cls-2" x="860" y="487">034</text></g>
-        <g onClick={onClickHandler} id="47"><rect id="Kuala_Nerus" data-name="Kuala Nerus" className="cls-9" x="880" y="460" width="39" height="39"/><text className="cls-2" x="900" y="487">035</text></g>
-        <g onClick={onClickHandler} id="48"><rect id="Kuala_Terengganu" data-name="Kuala Terengganu" className="cls-6" x="840" y="500" width="39" height="39"/><text className="cls-2" x="860" y="527">036</text></g>
-        <g onClick={onClickHandler} id="49"><rect id="Marang" data-name="Marang" className="cls-6" x="880" y="500" width="39" height="39"/><text className="cls-2" x="900" y="527">037</text></g>
-        <g onClick={onClickHandler} id="50"><rect id="Hulu_Terrenganu" data-name="Hulu Terrenganu" className="cls-8" x="840" y="540" width="39" height="39"/><text className="cls-2" x="860" y="567">038</text></g>
-        <g onClick={onClickHandler} id="51"><rect id="Dungun" data-name="Dungun" className="cls-6" x="880" y="540" width="39" height="39"/><text className="cls-2" x="900" y="567">039</text></g>
-        <g onClick={onClickHandler} id="52"><rect id="Kemaman" data-name="Kemaman" className="cls-6" x="880" y="580" width="39" height="39"/><text className="cls-2" x="900" y="607">040</text></g>
+        <g onClick={onClickHandler} id="32"><rect id="Besut" data-name="Besut" className="cls-1" x="840" y="420" width="39" height="39"/><text className="cls-2" x="860" y="447">033</text></g>
+        <g onClick={onClickHandler} id="33"><rect id="Setiu" data-name="Setiu" className="cls-6" x="840" y="460" width="39" height="39"/><text className="cls-2" x="860" y="487">034</text></g>
+        <g onClick={onClickHandler} id="34"><rect id="Kuala_Nerus" data-name="Kuala Nerus" className="cls-9" x="880" y="460" width="39" height="39"/><text className="cls-2" x="900" y="487">035</text></g>
+        <g onClick={onClickHandler} id="35"><rect id="Kuala_Terengganu" data-name="Kuala Terengganu" className="cls-6" x="840" y="500" width="39" height="39"/><text className="cls-2" x="860" y="527">036</text></g>
+        <g onClick={onClickHandler} id="36"><rect id="Marang" data-name="Marang" className="cls-6" x="880" y="500" width="39" height="39"/><text className="cls-2" x="900" y="527">037</text></g>
+        <g onClick={onClickHandler} id="37"><rect id="Hulu_Terrenganu" data-name="Hulu Terrenganu" className="cls-8" x="840" y="540" width="39" height="39"/><text className="cls-2" x="860" y="567">038</text></g>
+        <g onClick={onClickHandler} id="38"><rect id="Dungun" data-name="Dungun" className="cls-6" x="880" y="540" width="39" height="39"/><text className="cls-2" x="900" y="567">039</text></g>
+        <g onClick={onClickHandler} id="39"><rect id="Kemaman" data-name="Kemaman" className="cls-6" x="880" y="580" width="39" height="39"/><text className="cls-2" x="900" y="607">040</text></g>
 
+        <text id="P.Pinang" data-name="P. Pinang" className="cls-5" x="281.167" y="319.772">P. Pinang</text>
+        <g onClick={onClickHandler} id="40"><rect id="Kepala_Batas" data-name="Kepala Batas" className="cls-1" x="400" y="300" width="39" height="39"/><text className="cls-2" x="420" y="327">041</text></g>
+        <g onClick={onClickHandler} id="41"><rect id="Tasek_Gelugor" data-name="Tasek Gelugor" className="cls-8" x="400" y="340" width="39" height="39"/><text className="cls-2" x="420" y="367">042</text></g>
+        <g onClick={onClickHandler} id="42"><rect id="Bagan" data-name="Bagan" className="cls-1" x="440" y="340" width="39" height="39"/><text className="cls-2" x="460" y="367">043</text></g>
+        <g onClick={onClickHandler} id="43"><rect id="Permatang_Pauh" data-name="Permatang Pauh" className="cls-4" x="400" y="380" width="39" height="39"/><text className="cls-2" x="420" y="407">044</text></g>
+        <g onClick={onClickHandler} id="44"><rect id="Bukit_Mertajam" data-name="Bukit Mertajam" className="cls-4" x="440" y="380" width="39" height="39"/><text className="cls-2" x="460" y="407">045</text></g>
+        <g onClick={onClickHandler} id="45"><rect id="Batu_Kawan" data-name="Batu Kawan" className="cls-4" x="400" y="420" width="39" height="39"/><text className="cls-2" x="420" y="447">046</text></g>
+        <g onClick={onClickHandler} id="46"><rect id="Nibong_Tebal" data-name="Nibong Tebal" className="cls-4" x="440" y="420" width="39" height="39"/><text className="cls-2" x="460" y="447">047</text></g>
+        <g onClick={onClickHandler} id="47"><rect id="Bukit_Bendera" data-name="Bukit Bendera" className="cls-4" x="280" y="340" width="39" height="39"/><text className="cls-2" x="300" y="367">048</text></g>
+        <g onClick={onClickHandler} id="48"><rect id="Tanjong" data-name="Tanjong" className="cls-4" x="320" y="340" width="39" height="39"/><text className="cls-2" x="340" y="367">049</text></g>
+        <g onClick={onClickHandler} id="49"><rect id="Jelutong" data-name="Jelutong" className="cls-4" x="280" y="380" width="39" height="39"/><text className="cls-2" x="300" y="407">050</text></g>
+        <g onClick={onClickHandler} id="50"><rect id="Bukit_Gelugor" data-name="Bukit Gelugor" className="cls-4" x="320" y="380" width="39" height="39"/><text className="cls-2" x="340" y="407">051</text></g>
+        <g onClick={onClickHandler} id="51"><rect id="Bayan_Baru" data-name="Bayan Baru" className="cls-4" x="280" y="420" width="39" height="39"/><text className="cls-2" x="300" y="447">052</text></g>
+        <g onClick={onClickHandler} id="52"><rect id="Balik_Pulau" data-name="Balik Pulau" className="cls-4" x="320" y="420" width="39" height="39"/><text className="cls-2" x="340" y="447">053</text></g>
+        
         <text id="Perak" data-name="Perak" className="cls-5" x="389.169" y="568.771">Perak</text>
         <g onClick={onClickHandler} id="53"><rect id="Gerik" data-name="Gerik" className="cls-1" x="640" y="380" width="39" height="39"/><text className="cls-2" x="660" y="407">054</text></g>
         <g onClick={onClickHandler} id="54"><rect id="Lenggong" data-name="Lenggong" className="cls-1" x="600" y="420" width="39" height="39"/><text className="cls-2" x="620" y="447">055</text></g>
