@@ -1,6 +1,7 @@
 import { Candidate } from '#/lib/data/candidates';
 import Image from 'next/image';
 import BN from '#/public/bn.jpg';
+import DAP from '#/public/dap.jpg';
 import GPS from '#/public/gps.jpg';
 import GRS from '#/public/grs.jpg';
 import KDM from '#/public/kdm.jpg';
@@ -21,7 +22,7 @@ import Warisan from '#/public/warisan.jpg';
 
 export const CandidateCard = ({ candidates }: { candidates: Candidate[] }) => {
   return (
-    <div className="min-w-full overscroll-y-auto space-y-2">
+    <div className="min-w-full space-y-2">
       {candidates.map((item, index) => (
         <div className="flex min-w-full bg-gray-200 rounded-xl space-x-2 py-2 px-4" key={index}>
           <span className="flex h-10 w-10">
@@ -29,11 +30,12 @@ export const CandidateCard = ({ candidates }: { candidates: Candidate[] }) => {
             {item.coalition === "GPS" && <Image src={GPS} className="rounded-md" alt="GPS"/>}
             {item.coalition === "GRS" && <Image src={GRS} className="rounded-md" alt="GRS"/>}
             {item.coalition === "GTA" && <Image src={PEJUANG} className="rounded-md" alt="GTA"/>}
-            {item.coalition === "MUDA" && <Image src={MUDA} className="rounded-md" alt="MUDA"/>}
             {item.coalition === "PAS" && <Image src={PAS} className="rounded-md" alt="PAS"/>}
             {item.coalition === "PBRS" && <Image src={PBRS}className="rounded-md" alt="PBRS"/>}
-            {item.coalition === "PH" && <Image src={PH} className="rounded-md" alt="PH"/>}
+            {/* {item.coalition === "PH" && <Image src={PH} className="rounded-md" alt="PH"/>} */}
             {item.coalition === "PN" && <Image src={PN} className="rounded-md" alt="PN"/>}
+            {/* {item.coalition === "PH" && ( item.party === "DAP" ? <Image src={DAP} className="rounded-md" alt="DAP"/> : <Image src={PH} className="rounded-md" alt="PH"/>)} */}
+            {item.coalition === "PH" && ( item.party === "MUDA" ? <Image src={MUDA} className="rounded-md" alt="MUDA"/> : <Image src={PH} className="rounded-md" alt="PH"/>)}
             {item.coalition === "Putra" && <Image src={Putra} className="rounded-md" alt="Putra"/>}
             {item.party === "KDM" && <Image src={KDM} className="rounded-md" alt="KDM"/>}
             {item.party === "PBDS" && <Image src={PBDS} className="rounded-md" alt="PBDS"/>}

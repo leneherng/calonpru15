@@ -1,5 +1,4 @@
 'use client';
-
 import { MouseEventHandler, useState } from 'react';
 import Map from '#/ui/Map';
 import Candidates from '#/ui/Candidates';
@@ -16,18 +15,18 @@ export default function Page() {
   };
 
   return (
-    <div className="p-2">
-      <div className="p-2">
-        <div className="grid-cols-[max(800px),400px] grid gap-x-8 py-2">
-          <div className="col-start-1 px-4">
-            <div className="flex justify-center text-xl font-bold text-gray-900">
+    <div className="bg-white">
+      <div className="p-4">
+            <div className="flex justify-center text-xl font-bold text-gray-900 py-2">
               GE15 Candidates
             </div>
+        <div className="grid grid-cols-[700px, 700px] py-2">
+          <div className="overflow-x-scroll col-start-1 px-4">
             <Map onClickHandler={onClickHandler} />
           </div>
-        <div className="col-start-1 lg:col-start-2">
-          <Candidates area={candidates[code]} />
-        </div>
+          <div className="col-start-1 lg:col-start-2">
+            <Candidates area={candidates[code]} />
+          </div>
         </div>
       </div>
     </div>

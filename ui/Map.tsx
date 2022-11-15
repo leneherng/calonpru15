@@ -1,7 +1,7 @@
 export default function Map( { onClickHandler } : { onClickHandler : React.MouseEventHandler<SVGGElement>}){
   return (
     <div>
-      <svg id="map" width="900" height="600" viewBox="700 100 800 1200">
+      <svg id="map" width="800" height="600" viewBox="650 100 800 1200">
         <style jsx>
           {`
             rect {

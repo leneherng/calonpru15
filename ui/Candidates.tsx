@@ -5,11 +5,10 @@ import { CandidateCard } from '#/ui/CandidateCard';
 
 const Candidates = ({ area }: { area: Constituency }) => {
   return (
-    <div className="flex flex-col min-w-full rounded-2xl bg-gray-100 p-4">
+    <div className="flex flex-col min-w-full min-h-full rounded-2xl bg-gray-100 p-4">
       {area ? 
         <>
           <div className="flex p-2 space-x-4">
-            {/* <div className="h-6 w-6 rounded-full bg-gray-700" /> */}
             <span className="text-lg font-bold text-gray-800">{area.code}</span>
             <span className="text-lg font-bold text-gray-800">{area.name}</span>
           </div>
